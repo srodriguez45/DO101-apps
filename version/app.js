@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'La aplicación se actualiza manual' + '\n';
+    response = 'La aplicación se actualiza con webhooks' + '\n';
 
     //send the response to the client
     res.send(response);
